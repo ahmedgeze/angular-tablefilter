@@ -1,0 +1,19 @@
+<!doctype html>
+<html ng-app>
+    <head>
+        <title>DİRECTİVES</title>
+    </head>
+    <body ng-init="name='james'">
+    {{ 2 * 5 }}
+        <div ng-hide="isHidden">
+            Name: <input type="text" ng-model="name"> <span ng-bind="name"></span>
+
+        </div>
+            Hide: <input type="checkbox" ng-model="isHidden">
+        <br>
+        <button ng-click="name='Michella'">Change Name</button>
+        <script src="angular.js"></script>
+    </body>
+
+
+</html>
